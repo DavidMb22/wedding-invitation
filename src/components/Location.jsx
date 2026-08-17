@@ -16,7 +16,7 @@ export default function Location() {
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[9px] font-medium uppercase tracking-[0.45em] text-black/40"
+            className="text-[10px] font-semibold uppercase tracking-[0.4em] text-black/55 sm:text-[11px]"
           >
             Find Us Here
           </motion.p>
@@ -26,12 +26,12 @@ export default function Location() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="mt-6 font-serif text-[3rem] font-light leading-none sm:text-[4rem]"
+            className="mx-auto mt-6 max-w-xl font-serif text-base italic leading-7 text-black/65 sm:text-lg sm:leading-8"
           >
             Our Locations
           </motion.h2>
 
-          <p className="mx-auto mt-6 max-w-md font-serif text-[14px] italic leading-7 text-black/45">
+          <p className="mx-auto mt-6 max-w-xl font-serif text-base italic leading-7 text-black/65 sm:text-lg sm:leading-8">
             We would be delighted to have you with us as we celebrate
             this special day.
           </p>
@@ -99,7 +99,7 @@ function LocationCard({ time, label, location }) {
             {location.city}
           </p>
 
-          <p className="mt-2 text-[11px] text-black/40">
+          <p className="mt-2 text-sm text-black/55">
             {location.country}
           </p>
         </div>
@@ -110,7 +110,7 @@ function LocationCard({ time, label, location }) {
             href={location.mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 border-b border-black/20 pb-2 text-[8px] font-medium uppercase tracking-[0.3em] text-black/60 transition hover:border-black hover:text-black"
+            className="inline-flex items-center gap-3 border-b border-black/20 pb-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-black/65 transition hover:border-black hover:text-black"
           >
             Get Directions
 

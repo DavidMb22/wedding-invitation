@@ -51,11 +51,9 @@ export const wedding = {
 
         reception: {
             name: "Kivu Beach",
-            city: "Gisenyi (Rubavu)",
+            city: "Gisenyi (Rubavu), Rwanda",
             country: "Rwanda",
-            full: "Kivu Beach · Gisenyi (Rubavu), Rwanda",
-            mapsUrl:
-                "https://www.google.com/maps/search/?api=1&query=Kivu+Beach+Gisenyi+Rwanda",
+            mapsUrl: "https://maps.app.goo.gl/YPR8bLuzMKrRwpYP6",
         },
     },
 
